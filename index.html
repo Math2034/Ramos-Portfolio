@@ -103,6 +103,8 @@
       gap: 12px;
     }
 
+    .project-links { display: flex; gap: 10px; align-items: baseline; }
+
     .project-name { font-size: 15px; font-weight: 500; color: #f0f0f0; }
 
     .project-link { font-size: 12px; color: #444; white-space: nowrap; flex-shrink: 0; }
@@ -114,6 +116,10 @@
     .contact p { font-size: 14px; color: #888; margin-bottom: 16px; }
 
     footer { margin-top: 72px; font-size: 12px; color: #333; }
+
+    @media (max-width: 480px) {
+      .project-header { align-items: flex-start; flex-direction: column; gap: 4px; }
+    }
   </style>
 </head>
 <body>
@@ -145,7 +151,10 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">VOID Event Landing Page</span>
-        <a href="https://github.com/Math2034/VOID" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://math2034.github.io/VOID/" target="_blank" rel="noopener noreferrer" class="project-link">demo ↗</a>
+          <a href="https://github.com/Math2034/VOID" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">HTML · CSS · JavaScript · UX/CRO</div>
       <div class="project-desc">A fictional Perth event concept focused on conversion: countdown logic, ticket tiers, scarcity messaging and responsive presentation. Demonstrates how interface decisions support a user action.</div>
@@ -154,7 +163,10 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">Nocture Night Club</span>
-        <a href="https://github.com/Math2034/Nocture" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://math2034.github.io/Nocture/" target="_blank" rel="noopener noreferrer" class="project-link">demo ↗</a>
+          <a href="https://github.com/Math2034/Nocture" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">HTML · CSS · JavaScript · Formspree · GitHub Pages</div>
       <div class="project-desc">A fictional nightlife landing page with responsive layout, animated navigation, gallery, event-oriented content and a contact flow. Recently audited for SEO, accessibility and interaction reliability.</div>
@@ -163,7 +175,10 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">Inspots Landing Page</span>
-        <a href="https://github.com/Math2034/inspots_lgp" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://inspots-lgp-aivl-i5pewuuo3-math2034s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">demo ↗</a>
+          <a href="https://github.com/Math2034/inspots_lgp" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">HTML · CSS · JavaScript</div>
       <div class="project-desc">A redesign of a landing page I first built in high school. Rebuilt with better layout, improved responsiveness, and cleaner code. Good example of how much can change in a year.</div>
@@ -172,7 +187,9 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">Price Watcher</span>
-        <a href="https://github.com/Math2034/Price-Watcher" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://github.com/Math2034/Price-Watcher" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">Python · Web Scraping · Email Automation</div>
       <div class="project-desc">Monitors a product page and sends you an email when the price drops. Built because I was tired of checking manually.</div>
@@ -181,7 +198,10 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">Crypto Tracker</span>
-        <a href="https://github.com/Math2034/crypto-tracker" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://cryptotracker-three-livid.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">demo ↗</a>
+          <a href="https://github.com/Math2034/crypto-tracker" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">React.js · REST API · JavaScript</div>
       <div class="project-desc">Live crypto price tracker pulling real-time data from a public API. My first real React project, where hooks and components finally clicked.</div>
@@ -190,7 +210,10 @@
     <div class="project">
       <div class="project-header">
         <span class="project-name">Habit Tracker</span>
-        <a href="https://github.com/Math2034/Habit-Tracker" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        <span class="project-links">
+          <a href="https://math2034.github.io/Habit-Tracker/" target="_blank" rel="noopener noreferrer" class="project-link">demo ↗</a>
+          <a href="https://github.com/Math2034/Habit-Tracker" target="_blank" rel="noopener noreferrer" class="project-link">github →</a>
+        </span>
       </div>
       <div class="project-stack">HTML · CSS · Vanilla JavaScript</div>
       <div class="project-desc">Simple habit tracking app, no libraries. Built to understand the fundamentals without relying on frameworks to do the work.</div>
